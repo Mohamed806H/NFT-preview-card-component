@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root {
+  --font-base: 'Outfit', sans-serif;
+  --Primary-color: hsl(215, 51%, 70%);
+  --Seconed-color: hsl(178, 100%, 50%);
+  --VeryDarkBlue-color:hsl(217, 54%, 11%);
+  --DarkBlue-color: hsl(216, 50%, 16%);
+  --Line-color:hsl(215, 32%, 27%);
+  --White-color:hsl(0, 0%, 100%);
+}
+body{
+  font-family: var(--font-base);
+  background-color: var(--VeryDarkBlue-color);
+  font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}

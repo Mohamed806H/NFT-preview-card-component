@@ -1,0 +1,112 @@
+section.app__section-card{
+  width: 352px;
+  height: 593px;
+  margin-left: 543px;
+  margin-top: 153px;
+  background-color: var(--DarkBlue-color);
+  border-radius: 15px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section.app__section-card-topside img.eq{
+  margin-top: 21px;
+  margin-left: 26px;
+  width: 301px;
+  height: 301px;
+  border-radius: 10px;
+}
+section.app__section-card-topside img.eq:hover{
+opacity: 0.5;
+}
+section.app__section-card-topside img.view{
+  position: absolute;
+  top: 34%;
+  left: 48.5%;
+  visibility: hidden;;
+}
+section.app__section-card-topside img.view:hover{
+  visibility:visible;
+}
+section.app__section-card-topside h1{
+  position: relative;
+  top: 29px;
+  left: 26px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.04em;
+  color: var(--White-color);
+}
+section.app__section-card-topside p{
+  position: relative;
+  top: 49px;
+  left: 26px;
+  width: 302px;
+  font-weight: 400;
+  line-height: 23px;
+  color: var(--Primary-color);
+}
+section.app__section-card-bottomside img.ethereum{
+  position: relative;
+  top: 79px;
+  left: 26px;
+}
+section.app__section-card-bottomside p.eth{
+  position: relative;
+  top: 54px;
+  left: 43px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  color: var(--Seconed-color);
+}
+section.app__section-card-bottomside img.clock{
+  position: relative;
+  top: 35px;
+  left: 229px;
+}
+section.app__section-card-bottomside p.time{
+  position: relative;
+  top: 11px;
+  left: 253px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--Primary-color);
+}
+section.app__section-card-bottomside div.line{
+  position: relative;
+  top: 30px;
+  width: 346px;
+  border: 1px solid var(--Line-color);
+}
+section.app__section-card-bottomside img.avatar{
+  position: relative;
+  top: 45px;
+  left:25px;
+  width: 34px;
+  height: 34px;
+  border: 1px solid var(--White-color);
+  border-radius: 20px;
+}
+section.app__section-card-bottomside p.author{
+  position: relative;
+  top: 12px;
+  left: 65px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: var(--Primary-color);
+}
+section.app__section-card-bottomside p.author span{
+  color: var(--White-color);
+  padding-left: 3px;
+}
+@media screen and (max-width:375px) {
+  section.app__section-card{
+    margin-left: 11px;
+    margin-top: 85px;
+  }
+}
+
